@@ -7,12 +7,13 @@
  * 
  * @version 1.0
  */
-public class Principal{
+public class Principal {
     /**
      * Método main
+     * 
      * @param args los parametros
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
     }
 }

@@ -1,14 +1,14 @@
 # Práctica 3 - Modelado y Programación
 
 ## Descripción
+Este programa nos permite
 
-
-- **Patrones de Diseño**: Los patrones a utilizar son Factory y Builder:
-- **Factory**: 
-- **Builder**: 
+- **Patrones de Diseño**: El patrón a utilizar en esta práctica es Factory:
+- **Factory**: Lo utilizamos porque
 
 
 ## Estructura del Proyecto
+El código se estructura de la siguiente manera:
 
 
 ## Consideraciones del ejercicio
