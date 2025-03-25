@@ -14,7 +14,8 @@ public class Principal {
      * @param args los parametros
      */
     public static void main(String[] args) {
-
+        DeviceMenu menu = new DeviceMenu();
+        menu.showMenu();
     }
 }
 
