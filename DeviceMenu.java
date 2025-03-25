@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * Clase Devicemenu. Es el menú que se utiliza en la práctica.
+ * Clase DeviceMenu. Es el menú que se utiliza en la práctica.
  * 
  * @author Emilio Durán Tapia
  * @author Alan Blancas Ochoa
