@@ -1,14 +1,29 @@
 import java.util.*;
 
+/**
+ * Clase Devicemenu. Es el menú que se utiliza en la práctica.
+ * 
+ * @author Emilio Durán Tapia
+ * @author Alan Blancas Ochoa
+ * @author Brandon Zamorano Baños
+ * 
+ * @version 1.0
+ */
 public class DeviceMenu {
     private final Scanner scanner;
     private final List<Device> deviceList;
 
+    /**
+     * Método pque usa el Scanner y el ArrayList
+     */
     public DeviceMenu() {
         this.scanner = new Scanner(System.in);
         this.deviceList = new ArrayList<>();
     }
 
+    /**
+     * Método void en donde se muestra el menú
+     */
     public void showMenu() {
         while (true) {
             System.out.println("\nSeleccione un producto por agregar:");
@@ -35,6 +50,12 @@ public class DeviceMenu {
         displayDevices();
     }
 
+    /**
+     * Método interior en donde se escoge la opción válida
+     * 
+     * @param maxOptions las opciones máximas
+     * @return la elección
+     */
     private int getValidChoice(int maxOptions) {
         while (true) {
             System.out.print("Agregue opciones (1-" + maxOptions + "): ");
@@ -51,6 +72,9 @@ public class DeviceMenu {
         }
     }
 
+    /**
+     * Método void que muestra los dispositivos.
+     */
     private void displayDevices() {
         System.out.println("\n--- Lista de productos agregados ---");
         if (deviceList.isEmpty()) {
