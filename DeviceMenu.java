@@ -14,7 +14,7 @@ public class DeviceMenu {
     private final List<Device> deviceList;
 
     /**
-     * Método pque usa el Scanner y el ArrayList
+     * Método que usa el Scanner y el ArrayList
      */
     public DeviceMenu() {
         this.scanner = new Scanner(System.in);

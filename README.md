@@ -25,11 +25,11 @@ Para la implementación de este proyecto se tomaron en cuenta las siguientes con
 ## Cómo Ejecutar
 1. Compila el código:
    ```bash
-   javac principal.java
+   javac src/Principal.java
    ```
 2. Ejecuta el programa:
    ```bash
-   java Principal
+   java src/Principal
    ```
 Este proyecto fue hecho con Java 23.
 
