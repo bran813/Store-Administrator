@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Clase Laptop, es donde se estructura la Laptop. Extiende Device
  * 

@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Clase Device. Estructura el dispositivo.
  * 

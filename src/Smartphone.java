@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Clase Smartphone. Estructura el teléfono. Extiende Device
  * 

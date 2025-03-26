@@ -1,3 +1,5 @@
+package src;
+
 /**
  * Clase Tablet, es donde se estructura la tableta. Extiende Device
  * 
