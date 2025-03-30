@@ -1,41 +1,41 @@
-# Práctica 3 - Modelado y Programación
+# **Store Administrator**  
 
-## Descripción
-Este programa implementa un sistema de menú para la tienda Banana Store, especializada en productos electrónicos. El objetivo es gestionar estos productos y sus diversas especificaciones de manera estructurada y flexible.
+## **Description**  
+This program implements a **menu system** for the **Banana Store**, a shop specializing in electronic products. The goal is to manage these products and their various specifications in a **structured and flexible** way. This program simulates a **product storage software** within the terminal.  
 
-- **Patrones de Diseño**: El patrón a utilizar en esta práctica es Factory:
-- **Factory**: Lo utilizamos porque permite la creación de objetos a partir de una estructura base, facilitando la generación de productos en la tienda. A diferencia del patrón Abstract Factory, esta implementación evita el uso de clases abstractas adicionales o la necesidad de crear múltiples fábricas.
+- **Design Patterns:** The pattern used in this project is **Factory**:  
+- **Factory:** We used this pattern because it allows the creation of objects based on a **base structure**, making it easier to generate products in the store. Unlike the **Abstract Factory** pattern, this implementation avoids the use of additional abstract classes or the need to create multiple factories.  
 
+---
 
-## Estructura del Proyecto
-El código se estructura de la siguiente manera:
-Tenemos un archivo java dedicado al patrón factory, el cual es DeviceFactory. El java Principal se encarga de correr el main. El DeviceMenu estructura el menú que se utiliza.
+## **Project Structure**  
+The code is structured as follows:  
 
+- `DeviceFactory.java`: Handles the **Factory pattern** implementation.  
+- `Principal.java`: Contains the **main** method to run the program.  
+- `DeviceMenu.java`: Manages the **menu system** used in the application.  
 
-## Consideraciones del ejercicio
+---
 
-Para la implementación de este proyecto se tomaron en cuenta las siguientes consideraciones:
+## **Exercise Considerations**  
 
-* Como se pidió en la práctica, los productos se registran y organizan según su categoría, permitiendo una configuración flexible de sus atributos.
+For the implementation of this project, the following aspects were considered:  
 
-* Nos basamos en la definición del factory para desarrollar las partes relacionadas al patrón, especialmente DeviceFactory.
+- As required in the assignment, **products are registered and organized** by category, allowing for flexible attribute configuration.  
+- The **Factory pattern** was carefully implemented, with a focus on `DeviceFactory` to handle object creation efficiently.  
 
+---
 
+## **How to Run**  
 
-## Cómo Ejecutar
-1. Compila el código:
+1. **Compile the code:**  
    ```bash
    javac src/Principal.java
+
    ```
-2. Ejecuta el programa:
+2. **Run the project:**  
    ```bash
    java src/Principal
    ```
-Este proyecto fue hecho con Java 23.
+This project was done in Java 23
 
-### Integrantes del equipo "asdfg" 
-| Nombre | Número de cuenta |
-| --- | --- |
-| Emilio Durán Tapia | 318075752 |
-| Alan Blancas Ochoa | 316227364 |
-| Brandon Zamorano Baños | 316250869|

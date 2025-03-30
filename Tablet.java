@@ -3,9 +3,7 @@ package src;
 /**
  * Clase Tablet, es donde se estructura la tableta. Extiende Device
  * 
- * @author Emilio Durán Tapia
- * @author Alan Blancas Ochoa
- * @author Brandon Zamorano Baños
+
  * 
  * @version 1.0
  */

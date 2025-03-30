@@ -6,9 +6,7 @@ import java.util.function.Function;
 /**
  * Clase DeviceFactory. Es la aplicación del patrón factory.
  * 
- * @author Emilio Durán Tapia
- * @author Alan Blancas Ochoa
- * @author Brandon Zamorano Baños
+
  * 
  * @version 1.0
  */
