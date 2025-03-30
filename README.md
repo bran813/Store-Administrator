@@ -30,12 +30,12 @@ For the implementation of this project, the following aspects were considered:
 
 1. **Compile the code:**  
    ```bash
-   javac src/Principal.java
+   javac Principal.java
 
    ```
 2. **Run the project:**  
    ```bash
-   java src/Principal
+   java Principal
    ```
 This project was done in Java 23
 
